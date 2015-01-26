@@ -6,7 +6,10 @@
 
 
 var min = function(x,y) {
-	if(x<y) {
+	if(x==y){
+		return "They are equal.";
+	}
+	else if(x<y) {
 		return x;
 	}
 	else {
@@ -14,6 +17,8 @@ var min = function(x,y) {
 	}
 }
 
+console.log(min(10,10));
+// They are equal.
 console.log(min(0,10));
 // 0
 console.log(min(0,-10));
