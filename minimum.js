@@ -1,8 +1,9 @@
 
 
 //Katie Harold
-//CMP237
-//Minimum Ch. 3
+//CMP237 Minimum Ch. 3
+//Tests for minimum value out of values given
+//Jan 26, 2015
 
 
 var min = function(x,y) {
